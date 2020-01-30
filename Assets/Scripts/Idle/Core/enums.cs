@@ -1,4 +1,4 @@
-﻿namespace Idle.Interface
+﻿namespace Idle.Core
 {
 
 #region Store

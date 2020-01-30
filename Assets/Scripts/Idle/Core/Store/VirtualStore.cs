@@ -1,12 +1,11 @@
 ﻿using Idle.Interface.Store;
-using UnityEngine;
 
-namespace Idle.Core.VirtualStore
+namespace Idle.Core.Store
 {
     public class VirtualStore : IStore
     {
 
-        public int StoreType => (int)Interface.StoreType.VirtualStore;
+        public int StoreType => (int)Core.StoreType.VirtualStore;
         
         public void RequestPurchasing(IPurchasable item, IBuyer buyer)
         {

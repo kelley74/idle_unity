@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="Idle" t="Include">
+            <e p="Core" t="Include">
+              <e p="Common" t="Include">
+                <e p="BaseBuyer.cs" t="Include" />
+              </e>
+              <e p="enums.cs" t="Include" />
+              <e p="Inventory" t="Include">
+                <e p="PlayerInventory.cs" t="Include" />
+              </e>
+              <e p="Store" t="Include">
+                <e p="Price.cs" t="Include" />
+                <e p="Product.cs" t="Include" />
+                <e p="ScriptableProduct.cs" t="Include" />
+                <e p="VirtualStore.cs" t="Include" />
+              </e>
+              <e p="Test" t="Include">
+                <e p="ClientA.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Interface" t="Include">
+              <e p="Item" t="Include">
+                <e p="IItem.cs" t="Include" />
+              </e>
+              <e p="Observer" t="Include">
+                <e p="IObservable.cs" t="Include" />
+                <e p="IObserver.cs" t="Include" />
+              </e>
+              <e p="Store" t="Include">
+                <e p="IBuyer.cs" t="Include" />
+                <e p="IPrice.cs" t="Include" />
+                <e p="IPurchasable.cs" t="Include" />
+                <e p="IStore.cs" t="Include" />
+                <e p="PurchasingResult.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="idle_unity.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp/bin" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.2/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_idle_unity.-337532667.00" t="ExcludeRecursive" />
+  </component>
+</project>

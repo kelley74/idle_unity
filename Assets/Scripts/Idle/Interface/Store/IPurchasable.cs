@@ -5,7 +5,7 @@ namespace Idle.Interface.Store
     public interface IPurchasable: IItem
     {
         int StoreType { get; }
-        Price Price { get; }
+        IPrice Price { get; }
         int Number { get; }
     }
 }

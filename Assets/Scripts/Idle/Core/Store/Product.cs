@@ -1,17 +1,16 @@
 ﻿using Idle.Interface;
 using Idle.Interface.Store;
-using UnityEngine;
 
-namespace Idle.Core.Purchases
+namespace Idle.Core.Store
 {
     public class Product : IPurchasable
     {
         public string Id { get; private set; }
         public int StoreType { get; private set;}
-        public Price Price { get; private set;}
+        public IPrice Price { get; private set;}
         public int Number { get; private set;}
         
-        public Product(string id, int number, Price price, StoreType storeType)
+        public Product(string id, int number, IPrice price, StoreType storeType)
         {
             Id = id;
             StoreType = (int)storeType;
