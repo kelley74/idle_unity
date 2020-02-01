@@ -3,7 +3,7 @@ using Idle.Interface.Store;
 
 namespace Idle.Core.Inventory
 {
-    public class PlayerInventory : BaseBuyer
+    public class PlayerInventory : BaseBuyer, IInventory
     {
 
         public PlayerInventory() : base()

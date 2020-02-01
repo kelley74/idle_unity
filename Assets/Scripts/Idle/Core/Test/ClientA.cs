@@ -4,6 +4,7 @@ using Idle.Interface;
 using Idle.Interface.Observer;
 using Idle.Interface.Store;
 using UnityEngine;
+using Zenject;
 
 namespace Idle.Core.Test
 {
@@ -12,11 +13,16 @@ namespace Idle.Core.Test
 
         public ScriptableProduct product;
         
-        private PlayerInventory _inventory;
+        private IInventory _inventory;
+
+        [Inject]
+        public void Constructor(IInventory inventory)
+        {
+            _inventory = inventory;
+        }
 
         void Start()
         {
-            _inventory = new PlayerInventory();
             _inventory.Subscribe(this);
 
             IStore store = GetStore((StoreType) product.StoreType);//to do store fabric
